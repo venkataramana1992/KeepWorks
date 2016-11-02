@@ -1,0 +1,51 @@
+   [
+    {
+      "eventName" : "Metallica Concert",
+      "place" : "Palace Grounds",
+      "entryType" : "1"
+    },
+    {
+      "eventName" : "Saree Exhibition",
+      "place" : "Malleswaram Grounds",
+      "entryType" : "0"
+    },
+    {
+      "eventName" : "Wine tasting event",
+      "place" : "Links Brewery",
+      "entryType" : "1"
+    },
+    {
+      "eventName" : "Startups Meet",
+      "place" : "Kanteerava Indoor Stadium",
+      "entryType" : "1"
+    },
+    {
+      "eventName" : "Barbecue Fridays",
+      "place" : "Whitefield",
+      "entryType" : "1"
+    },
+    {
+      "eventName" : "Summer Noon Party",
+      "place" : "Kumara Park",
+      "entryType" : "1"
+    },
+        {
+      "eventName" : "Rock and Roll nights",
+      "place" : "Sarjapur Road",
+      "entryType" : "1"
+    },
+    {
+      "eventName" : "Summer workshop",
+      "place" : "Indiranagar",
+      "entryType" : "0"
+    },{
+      "eventName" : "Impressions & Expressions",
+      "place" : "MG Road",
+      "entryType" : "0"
+    },
+    {
+      "eventName" : "Italian carnival",
+      "place" : "SElectronic City",
+      "entryType" : "0"
+    }
+    ]
