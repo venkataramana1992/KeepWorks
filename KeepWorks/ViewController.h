@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface ViewController : UIViewController
 
 
+- (IBAction)moveToHome:(id)sender;
 @end
 

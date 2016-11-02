@@ -15,6 +15,15 @@
 		182751EF1DC7A22C00DD6DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182751ED1DC7A22C00DD6DB8 /* LaunchScreen.storyboard */; };
 		182751FA1DC7A22C00DD6DB8 /* KeepWorksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182751F91DC7A22C00DD6DB8 /* KeepWorksTests.m */; };
 		182752051DC7A22C00DD6DB8 /* KeepWorksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182752041DC7A22C00DD6DB8 /* KeepWorksUITests.m */; };
+		182752131DC8C28000DD6DB8 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 182752121DC8C28000DD6DB8 /* Events.json */; };
+		182752161DC8C42F00DD6DB8 /* EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182752151DC8C42F00DD6DB8 /* EventCell.m */; };
+		182752191DC8C61000DD6DB8 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182752181DC8C61000DD6DB8 /* EventsViewController.m */; };
+		1827521C1DC8CEC600DD6DB8 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827521B1DC8CEC600DD6DB8 /* EventDetailViewController.m */; };
+		18A6288B1DC8DC9400AA53A3 /* KeepWorks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A628891DC8DC9400AA53A3 /* KeepWorks.xcdatamodeld */; };
+		18A6289D1DC8EEC600AA53A3 /* Event+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A628961DC8EEC600AA53A3 /* Event+CoreDataProperties.m */; };
+		18A6289E1DC8EEC600AA53A3 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A628981DC8EEC600AA53A3 /* Event.m */; };
+		18A6289F1DC8EEC600AA53A3 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6289A1DC8EEC600AA53A3 /* User+CoreDataProperties.m */; };
+		18A628A01DC8EEC600AA53A3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6289C1DC8EEC600AA53A3 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,22 @@
 		182752001DC7A22C00DD6DB8 /* KeepWorksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepWorksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182752041DC7A22C00DD6DB8 /* KeepWorksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepWorksUITests.m; sourceTree = "<group>"; };
 		182752061DC7A22C00DD6DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182752121DC8C28000DD6DB8 /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		182752141DC8C42F00DD6DB8 /* EventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCell.h; sourceTree = "<group>"; };
+		182752151DC8C42F00DD6DB8 /* EventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCell.m; sourceTree = "<group>"; };
+		182752171DC8C61000DD6DB8 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		182752181DC8C61000DD6DB8 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		1827521A1DC8CEC600DD6DB8 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		1827521B1DC8CEC600DD6DB8 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		18A6288A1DC8DC9400AA53A3 /* KeepWorks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeepWorks.xcdatamodel; sourceTree = "<group>"; };
+		18A628951DC8EEC600AA53A3 /* Event+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Event+CoreDataProperties.h"; path = "KeepWorks/Event+CoreDataProperties.h"; sourceTree = "<group>"; };
+		18A628961DC8EEC600AA53A3 /* Event+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Event+CoreDataProperties.m"; path = "KeepWorks/Event+CoreDataProperties.m"; sourceTree = "<group>"; };
+		18A628971DC8EEC600AA53A3 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = KeepWorks/Event.h; sourceTree = "<group>"; };
+		18A628981DC8EEC600AA53A3 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = KeepWorks/Event.m; sourceTree = "<group>"; };
+		18A628991DC8EEC600AA53A3 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "User+CoreDataProperties.h"; path = "KeepWorks/User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		18A6289A1DC8EEC600AA53A3 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "User+CoreDataProperties.m"; path = "KeepWorks/User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		18A6289B1DC8EEC600AA53A3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = KeepWorks/User.h; sourceTree = "<group>"; };
+		18A6289C1DC8EEC600AA53A3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = KeepWorks/User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +106,14 @@
 		182751D31DC7A22C00DD6DB8 = {
 			isa = PBXGroup;
 			children = (
+				18A628951DC8EEC600AA53A3 /* Event+CoreDataProperties.h */,
+				18A628961DC8EEC600AA53A3 /* Event+CoreDataProperties.m */,
+				18A628971DC8EEC600AA53A3 /* Event.h */,
+				18A628981DC8EEC600AA53A3 /* Event.m */,
+				18A628991DC8EEC600AA53A3 /* User+CoreDataProperties.h */,
+				18A6289A1DC8EEC600AA53A3 /* User+CoreDataProperties.m */,
+				18A6289B1DC8EEC600AA53A3 /* User.h */,
+				18A6289C1DC8EEC600AA53A3 /* User.m */,
 				182751DE1DC7A22C00DD6DB8 /* KeepWorks */,
 				182751F81DC7A22C00DD6DB8 /* KeepWorksTests */,
 				182752031DC7A22C00DD6DB8 /* KeepWorksUITests */,
@@ -102,10 +135,18 @@
 			isa = PBXGroup;
 			children = (
 				182751E21DC7A22C00DD6DB8 /* AppDelegate.h */,
+				18A628891DC8DC9400AA53A3 /* KeepWorks.xcdatamodeld */,
 				182751E31DC7A22C00DD6DB8 /* AppDelegate.m */,
 				182751E51DC7A22C00DD6DB8 /* ViewController.h */,
 				182751E61DC7A22C00DD6DB8 /* ViewController.m */,
+				182752171DC8C61000DD6DB8 /* EventsViewController.h */,
+				182752181DC8C61000DD6DB8 /* EventsViewController.m */,
+				1827521A1DC8CEC600DD6DB8 /* EventDetailViewController.h */,
+				1827521B1DC8CEC600DD6DB8 /* EventDetailViewController.m */,
+				182752141DC8C42F00DD6DB8 /* EventCell.h */,
+				182752151DC8C42F00DD6DB8 /* EventCell.m */,
 				182751E81DC7A22C00DD6DB8 /* Main.storyboard */,
+				182752121DC8C28000DD6DB8 /* Events.json */,
 				182751EB1DC7A22C00DD6DB8 /* Assets.xcassets */,
 				182751ED1DC7A22C00DD6DB8 /* LaunchScreen.storyboard */,
 				182751F01DC7A22C00DD6DB8 /* Info.plist */,
@@ -246,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182752131DC8C28000DD6DB8 /* Events.json in Resources */,
 				182751EF1DC7A22C00DD6DB8 /* LaunchScreen.storyboard in Resources */,
 				182751EC1DC7A22C00DD6DB8 /* Assets.xcassets in Resources */,
 				182751EA1DC7A22C00DD6DB8 /* Main.storyboard in Resources */,
@@ -273,6 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A6289F1DC8EEC600AA53A3 /* User+CoreDataProperties.m in Sources */,
+				1827521C1DC8CEC600DD6DB8 /* EventDetailViewController.m in Sources */,
+				182752161DC8C42F00DD6DB8 /* EventCell.m in Sources */,
+				18A6289D1DC8EEC600AA53A3 /* Event+CoreDataProperties.m in Sources */,
+				18A6289E1DC8EEC600AA53A3 /* Event.m in Sources */,
+				182752191DC8C61000DD6DB8 /* EventsViewController.m in Sources */,
+				18A628A01DC8EEC600AA53A3 /* User.m in Sources */,
+				18A6288B1DC8DC9400AA53A3 /* KeepWorks.xcdatamodeld in Sources */,
 				182751E71DC7A22C00DD6DB8 /* ViewController.m in Sources */,
 				182751E41DC7A22C00DD6DB8 /* AppDelegate.m in Sources */,
 				182751E11DC7A22C00DD6DB8 /* main.m in Sources */,
@@ -422,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.reddy.KeepWorks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -433,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.reddy.KeepWorks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -501,6 +553,7 @@
 				1827520B1DC7A22C00DD6DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1827520C1DC7A22C00DD6DB8 /* Build configuration list for PBXNativeTarget "KeepWorksTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +562,7 @@
 				1827520E1DC7A22C00DD6DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1827520F1DC7A22C00DD6DB8 /* Build configuration list for PBXNativeTarget "KeepWorksUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,8 +571,22 @@
 				182752111DC7A22C00DD6DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18A628891DC8DC9400AA53A3 /* KeepWorks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18A6288A1DC8DC9400AA53A3 /* KeepWorks.xcdatamodel */,
+			);
+			currentVersion = 18A6288A1DC8DC9400AA53A3 /* KeepWorks.xcdatamodel */;
+			path = KeepWorks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 182751D41DC7A22C00DD6DB8 /* Project object */;
 }
